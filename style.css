@@ -1,0 +1,43 @@
+*{
+    background-color: red;
+}
+*{
+    margin: 0;
+    width: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+.blue{
+    width: 200px;
+    height: 150px;
+    background-color: #27548A;
+}
+.one{
+    width: 10px;
+    height: 150px;
+    background-color: #FFD700;
+    position: relative;
+    bottom: 150px;
+    left: 50px;
+}
+.two{
+    width: 200px;
+    height: 10px;
+    background-color: #FFD700;
+    position: relative;
+    bottom: 230px;
+
+    
+
+}
+.five{
+    color: #FFD700;
+    position: relative;
+    bottom: 160px;
+    left: 20px;
+}
+.parent{
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
