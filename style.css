@@ -1,43 +1,46 @@
 *{
-    background-color: red;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
 }
-*{
-    margin: 0;
-    width: 0;
-    border: 0;
-    box-sizing: border-box;
-}
-.blue{
-    width: 200px;
-    height: 150px;
-    background-color: #27548A;
-}
-.one{
-    width: 10px;
-    height: 150px;
-    background-color: #FFD700;
-    position: relative;
-    bottom: 150px;
-    left: 50px;
-}
-.two{
-    width: 200px;
-    height: 10px;
-    background-color: #FFD700;
-    position: relative;
-    bottom: 230px;
+body{
+    background: rgba(0, 0, 0, 0.6)url('./royal-enfield-himalayan.avif') center center fixed;
+    background-size: cover;
 
+}
+.container{
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+}
+.navbar ul li a{
+    padding: 9px;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
     
+    
+    
+}
+.navbar ul li a:hover{
+    color: red;
 
 }
-.five{
-    color: #FFD700;
-    position: relative;
-    bottom: 160px;
-    left: 20px;
+.content{
+    color: antiquewhite;
+    font-size: 10px;
 }
-.parent{
-    position: relative;
-    top: 100px;
-    left: 100px;
+.container h1{
+    color: aliceblue;
 }
+
+
+
+
